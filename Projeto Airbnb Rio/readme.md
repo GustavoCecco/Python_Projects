@@ -13,17 +13,17 @@ Os dados utilizados para esse projeto foram obtidos a partir do site Kaggle, esp
 Para referência e insights, a solução do usuário Allan Bruno no Kaggle também foi consultada: [Notebook de referência do Kaggle](https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb)
 
 ## Etapas do Projeto
-Importação e Tratamento dos Dados: As bases de dados foram coletadas e integradas, criando colunas de mês e ano. Em seguida, as colunas irrelevantes para o modelo foram eliminadas, e valores faltantes foram tratados.
+**Importação e Tratamento dos Dados:** As bases de dados foram coletadas e integradas, criando colunas de mês e ano. Em seguida, as colunas irrelevantes para o modelo foram eliminadas, e valores faltantes foram tratados.
 
-Análise Exploratória e Tratamento de Outliers: Foram realizadas análises e tratamentos das colunas de valores numéricos, como preço, acomodações, quartos, banheiros, entre outros. Outliers foram identificados e, quando apropriado, removidos. Algumas colunas foram excluídas quando não contribuíram para o modelo.
+**Análise Exploratória e Tratamento de Outliers:** Foram realizadas análises e tratamentos das colunas de valores numéricos, como preço, acomodações, quartos, banheiros, entre outros. Outliers foram identificados e, quando apropriado, removidos. Algumas colunas foram excluídas quando não contribuíram para o modelo.
 
-Tratamento de Colunas de Valores Textuais: As colunas de valores categóricos e de valores booleanos foram tratadas, convertendo-as para formatos mais adequados para a modelagem. Além disso, foi realizada uma análise e agrupamento de valores menos frequentes em algumas colunas categóricas.
+**Tratamento de Colunas de Valores Textuais:** As colunas de valores categóricos e de valores booleanos foram tratadas, convertendo-as para formatos mais adequados para a modelagem. Além disso, foi realizada uma análise e agrupamento de valores menos frequentes em algumas colunas categóricas.
 
-Codificação e Modelagem: As colunas de valores booleanos foram codificadas para valores numéricos, e colunas categóricas foram transformadas em variáveis dummy. Três modelos de regressão (Random Forest, Linear Regression e Extra Trees) foram escolhidos e treinados para prever os preços dos imóveis.
+**Codificação e Modelagem:** As colunas de valores booleanos foram codificadas para valores numéricos, e colunas categóricas foram transformadas em variáveis dummy. Três modelos de regressão (Random Forest, Linear Regression e Extra Trees) foram escolhidos e treinados para prever os preços dos imóveis.
 
-Avaliação e Escolha do Melhor Modelo: Os modelos foram avaliados com base nas métricas R² e RMSE (Root Mean Squared Error). O modelo Extra Trees se destacou como o mais adequado, com alto valor de R² e baixo valor de RMSE.
+**Avaliação e Escolha do Melhor Modelo:** Os modelos foram avaliados com base nas métricas R² e RMSE (Root Mean Squared Error). O modelo Extra Trees se destacou como o mais adequado, com alto valor de R² e baixo valor de RMSE.
 
-Ajustes Finais: Foram realizados ajustes finais no modelo vencedor, incluindo a remoção de features menos relevantes. O modelo foi testado novamente para verificar a melhoria nas métricas.
+**Ajustes Finais:** Foram realizados ajustes finais no modelo vencedor, incluindo a remoção de features menos relevantes. O modelo foi testado novamente para verificar a melhoria nas métricas.
 
 ## Resultados
 O modelo Extra Trees se mostrou eficaz na previsão de preços de imóveis com base nas características fornecidas. Ele foi escolhido como o melhor modelo devido aos altos valores de R² (97.49%) e ao baixo valor de RMSE (41.99). Os recursos mais relevantes para a previsão de preços foram identificados por meio de uma análise de importância de recursos.
@@ -34,13 +34,13 @@ Para disponibilizar o modelo para uso prático, ele pode ser salvo usando a bibl
 ## Benefícios
 O projeto traz diversos benefícios:
 
-Facilidade para Anfitriões: Anfitriões comuns que desejam alugar seus imóveis no Airbnb podem utilizar o modelo para definir preços competitivos e atrativos.
+**Facilidade para Anfitriões:** Anfitriões comuns que desejam alugar seus imóveis no Airbnb podem utilizar o modelo para definir preços competitivos e atrativos.
 
-Auxílio para Viajantes: Pessoas que desejam alugar imóveis para temporada no Rio de Janeiro podem avaliar se o preço pedido é justo com base nas características da propriedade.
+**Auxílio para Viajantes:** Pessoas que desejam alugar imóveis para temporada no Rio de Janeiro podem avaliar se o preço pedido é justo com base nas características da propriedade.
 
-Otimização de Ocupação: O modelo pode ajudar anfitriões a otimizar a ocupação de seus imóveis, ajustando os preços de acordo com a demanda e a concorrência.
+**Otimização de Ocupação:** O modelo pode ajudar anfitriões a otimizar a ocupação de seus imóveis, ajustando os preços de acordo com a demanda e a concorrência.
 
-Referência para Decisões: Mesmo para quem não pretende alugar no Airbnb, o modelo pode servir como referência na avaliação do valor de imóveis com base em suas características.
+**Referência para Decisões:** Mesmo para quem não pretende alugar no Airbnb, o modelo pode servir como referência na avaliação do valor de imóveis com base em suas características.
 
 ## Conclusão
 O projeto "Airbnb Rio - Ferramenta de Previsão de Preço de Imóvel para Pessoas Comuns" construiu com sucesso um modelo de previsão de preços de imóveis eficaz. Com um modelo treinado e ajustado, anfitriões e locatários comuns podem tomar decisões mais informadas sobre os preços de aluguel, gerando benefícios para ambos os lados do mercado.
