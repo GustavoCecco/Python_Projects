@@ -1,7 +1,4 @@
-# Análise de Inventário em Python
-Este projeto contém um código em Python que lida com um arquivo de planilha contendo informações de inventário de produtos. O código realiza quatro tarefas diferentes, que são explicadas em detalhes abaixo.
-
-## Funcionalidades
+# Funcionalidades
 1 - Listar cada empresa com a contagem de produtos respectiva
 O código utiliza o módulo openpyxl para carregar o arquivo de planilha inventory.xlsx, que contém os dados do inventário dos produtos. Ele acessa a planilha "Sheet1" e, para cada linha (exceto o cabeçalho), extrai a empresa fornecedora, contando quantos produtos estão associados a cada fornecedor. O resultado é armazenado no dicionário products_per_supplier, onde a chave é o nome da empresa fornecedora e o valor é o número de produtos associados a essa empresa.
 

@@ -1,8 +1,4 @@
-# Contador de Tempo Restante
-
-Este projeto consiste em um contador de tempo restante para um objetivo com prazo. O usuário pode inserir um objetivo e sua respectiva data de prazo, e o programa irá calcular o tempo restante em dias até a data especificada.
-
-## Funcionalidade
+# Funcionalidade
 O código importa o módulo datetime do Python para lidar com datas e tempo.
 
 O usuário é solicitado a digitar um objetivo com um prazo separado por dois pontos. A entrada é então dividida em uma lista usando o caractere ":" como separador.

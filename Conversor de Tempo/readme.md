@@ -1,8 +1,4 @@
-# Conversor de Tempo
-
-Este projeto consiste em um conversor de tempo, onde o usuário pode inserir um número de dias e a unidade de conversão desejada (horas ou minutos) para obter o equivalente em horas ou minutos.
-
-## Módulos
+# Módulos
 
 ### Main
 O módulo main contém o código principal do programa. Ele importa duas funções do módulo helper: validate_and_execute e user_input_message. O código é responsável por solicitar ao usuário que insira o número de dias e a unidade de conversão repetidamente até que o usuário digite "exit" para sair.

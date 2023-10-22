@@ -1,6 +1,6 @@
-# Mini Projeto de Análise de Dados
+# Mini Projeto de Análise de Dados 
 
-Este repositório contém um mini projeto de análise de dados que visa explorar e extrair insights a partir dos dados de 2019 de uma empresa de prestação de serviços. Os conjuntos de dados utilizados são os seguintes:
+Os conjuntos de dados utilizados são os seguintes:
 
 - CadastroFuncionarios
 - CadastroClientes
