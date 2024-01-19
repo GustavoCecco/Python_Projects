@@ -1,12 +1,5 @@
 # Repositório de estudos em Python
 
-## Apresentação
-
-Meu nome é Gustavo Cecco, tenho 28 anos e moro na cidade de Passo Fundo - RS, atualmente estou no 2º semestre de Análise e Desenvolvimento de Sistemas, curso este que faço EAD na instituição de ensino UniCesumar.
-
-- **Experiências na Área de Tecnologia**: Não possuo experiências na área de tecnologia, apenas algumas experiências com Power BI e SQL, fórmulas DAX e relatórios em BI. Estou estudando algumas ferramentas como SQL | Python | Power BI | AWS e tenho alguns projetos no GitHub com exercicios e análises feitas nos cursos que fiz.
-
-
 # Projetos
 
 | Projeto | Link | Observação |
